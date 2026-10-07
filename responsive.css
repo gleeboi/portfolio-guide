@@ -1,0 +1,5 @@
+@media (max-width:1024px){.layout{grid-template-columns:1fr}.menu-btn{display:inline-block}.progress-text{display:none}
+.sidebar{position:fixed;top:var(--top);left:0;bottom:0;height:auto;width:min(300px,85vw);background:var(--surface);z-index:45;transform:translateX(-100%);visibility:hidden;transition:transform .2s,visibility .2s}.sidebar.open{transform:none;visibility:visible}}
+@media (max-width:768px){.two-col{grid-template-columns:1fr}.pn{flex-direction:column}.pn a{max-width:none}h2{font-size:1.4rem}.brand{font-size:.95rem}}
+@media (max-width:480px){.actions .btn{padding:6px 8px;font-size:.78rem}.topbar{gap:6px;padding:0 8px}.brand{display:none}main{padding-inline:14px}}
+@media (max-width:768px){.cdc,.dd{grid-template-columns:1fr}.journey a{padding:6px 10px;font-size:.8rem}}
